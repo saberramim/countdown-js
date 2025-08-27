@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    
+    <script src="./js/script.js"></script>
+    <title>Countdown Counter</title>
+  </head>
+  <body onload="onLoadCounter()">
+    <h1>JavaScript Countdown</h1>
+    <p id="description">This project is written with JavaScript</p>
+
+    <div id="counter">02:00</div>
+    <div id="buttons">
+      <button onclick="startCountdown()" type="button" class="start">
+        Start
+      </button>
+      <button onclick="pauseCountdown()" type="button" class="pause" disabled>
+        Pause
+      </button>
+      <button onclick="resetCountdown()" type="button" class="reset" disabled>
+        Reset
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

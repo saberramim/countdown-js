@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(163, 112, 192);
+  text-align: center;
+  font-family: monospace;
+  outline: 0;
+  color: #252424;
+}
+#counter {
+  font-size: 48px;
+  margin: 20px 0;
+}
+#buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#buttons button {
+  margin: 10px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  transition-duration: 400ms;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+#buttons button:hover {
+  box-shadow: 1px 1px gray;
+}
+#buttons button.start {
+  background-color: rgb(42, 24, 83);
+}
+#buttons button.start:disabled {
+  background-color: gray;
+}
+#buttons button.pause {
+  background-color: rgb(228, 40, 40);
+}
+#buttons button.pause:disabled {
+  background-color: gray;
+}
+#buttons button.reset {
+  background-color: rgb(39, 39, 36);
+}
+#buttons button.reset:disabled {
+  background-color: gray;
+}
