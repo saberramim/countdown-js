@@ -1,4 +1,6 @@
-A compact, browser-ready countdown timer that starts from 120 seconds and displays time in the mm:ss format. It’s dependency-free and designed for quick integration into any web project.
+A compact, browser-ready countdown timer that starts from 120 seconds and displays time in the mm:ss format.
+It’s dependency-free and designed for quick integration into any web project.
+
 <img width="734" height="466" alt="Snap35" src="https://github.com/user-attachments/assets/54fb425f-7311-4604-a867-622225b5cbd3" />
 
 Key features
